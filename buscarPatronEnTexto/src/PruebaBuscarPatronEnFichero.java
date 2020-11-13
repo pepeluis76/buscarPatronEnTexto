@@ -6,7 +6,7 @@ public class PruebaBuscarPatronEnFichero {
 	public static void main(String[] args) {
 		String patron = "repa";
 		//--------------------------------------
-		String ruta = System.getProperty("user.dir") + "/src";
+		String ruta = "src";
 		String fichero = "diccionario.txt";
 		File f = new File(ruta,fichero);
 		//--------------------------------------
